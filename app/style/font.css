@@ -1,0 +1,98 @@
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 900;
+	font-display: swap;
+	src: local('Pretendard Black'), url('../../public/fonts/Pretendard/woff2/Pretendard-Black.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 800;
+	font-display: swap;
+	src: local('Pretendard ExtraBold'), url('../../public/fonts/Pretendard/woff2/Pretendard-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 700;
+	font-display: swap;
+	src: local('Pretendard Bold'), url('../../public/fonts/Pretendard/woff2/Pretendard-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 600;
+	font-display: swap;
+	src: local('Pretendard SemiBold'), url('../../public/fonts/Pretendard/woff2/Pretendard-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 500;
+	font-display: swap;
+	src: local('Pretendard Medium'), url('../../public/fonts/Pretendard/woff2/Pretendard-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 400;
+	font-display: swap;
+	src: local('Pretendard Regular'), url('../../public/fonts/Pretendard/woff2/Pretendard-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 300;
+	font-display: swap;
+	src: local('Pretendard Light'), url('../../public/fonts/Pretendard/woff2/Pretendard-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 200;
+	font-display: swap;
+	src: local('Pretendard ExtraLight'), url('../../public/fonts/Pretendard/woff2/Pretendard-ExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 100;
+	font-display: swap;
+	src: local('Pretendard Thin'), url('../../public/fonts/Pretendard/woff2/Pretendard-Thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 300;
+	src: local('SUITE Light'), url('../../public/fonts/Suite/woff2/SUITE-Light.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 400;
+	src: local('SUITE Regular'), url('../../public/fonts/Suite/woff2/SUITE-Regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 500;
+	src: local('SUITE Medium'), url('../../public/fonts/Suite/woff2/SUITE-Medium.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 600;
+	src: local('SUITE SemiBold'), url('../../public/fonts/Suite/woff2/SUITE-SemiBold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 700;
+	src: local('SUITE Bold'), url('../../public/fonts/Suite/woff2/SUITE-Bold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 800;
+	src: local('SUITE ExtraBold'), url('../../public/fonts/Suite/woff2/SUITE-ExtraBold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 900;
+	src: local('SUITE Heavy'), url('../../public/fonts/Suite/woff2/SUITE-Heavy.woff2') format('woff2');
+}

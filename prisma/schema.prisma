@@ -13,13 +13,12 @@ model User {
   id             String    @id @default(auto()) @map("_id") @db.ObjectId
   name           String
   email          String?   @unique
-  providerEmail  String?
   emailVerified  DateTime?
   image          String?
   hashedPassword String?
-  phone          String
-  birth          String
-  gender         String
+  phone          String?
+  birth          String?
+  gender         String?
   authorization  Int       @default(0)
   createdAt      DateTime  @default(now())
   updatedAt      DateTime  @updatedAt
@@ -33,9 +32,10 @@ model Account {
   type              String
   provider          String
   providerAccountId String
-  refesh_token      String? @db.String
+  refresh_token      String? @db.String
   access_token      String? @db.String
   expires_at        Int?
+  refresh_token_expires_in Int?
   token_type        String?
   scope             String?
   id_token          String? @db.String

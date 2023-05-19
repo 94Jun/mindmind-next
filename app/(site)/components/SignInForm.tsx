@@ -55,8 +55,16 @@ const SignInForm = () => {
   // 구현 필요
   const socialAction = (action: string) => {
     setIsFetching(true);
-    console.log(action);
-    //sign in method
+    signIn(action, { redirect: false })
+      .then((callback) => {
+        // if (callback?.error) {
+        //   console.error("error");
+        // }
+        // if (callback?.ok && !callback?.error) {
+        //   console.log("login");
+        // }
+      })
+      .finally(() => setIsFetching(false));
   };
 
   return (
